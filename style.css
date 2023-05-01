@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+.logo-header {
+    width: 7em;
+}
+
+.container_logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: end;
+}
+
+.buttonColapse {
+    width: 70%;
+    display: flex;
+}
+
+.nav-link {
+    font-size: 1.2em !important;
+}
+
+#navbarNavAltMarkup {
+    display: flex;
+    justify-content: center;
+}
+
+.Comprar {
+    color: rgb(85, 129, 85) !important;
+}
+
+.portada {
+    background-image: url(./img/ba1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    
+}
+.filtroportada{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    height: 600px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+.filtroportada .container {
+    margin-bottom: 10%;
+
+}
+.text-button-container{
+    color: white;
+    font-size: 1.2em;
+    text-align: end;
+}
+.text-center p{
+    text-align: end;
+}
