@@ -1,0 +1,99 @@
+
+
+header{
+    background-color: #3d4447 !important;  
+    margin-bottom: 4vh;
+}
+.logo-header {
+    width: 7.5em;
+}
+
+.container_logo {
+    width: 30%;
+    display: flex;
+    justify-content: start;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: end; 
+}
+
+
+.nav-link {
+    font-size: 0.9em !important;
+}
+
+
+.Comprar {
+    color: rgb(112, 209, 64) !important;
+}
+
+.navbar-brand {
+    margin-left: 1.5em !important;
+    font-size: 1.25em !important;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center !important;
+    text-align: center;
+}
+nav.navbar{
+    background-color: #3d4447 !important; 
+}
+
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+   /* width: 15.5vw !important;*/
+    width: 15% !important;
+    height: 15% !important;
+    border-radius: 0 !important;
+    text-align: center;
+}
+.card-trainee{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.venta{
+    width: 100%;
+    text-align: center;
+}
+
+form, h2{
+    text-align: center;
+}
+.btn{
+    margin: 0 5px 0 5px;
+}
+.div_email{
+    margin-top: 15px !important;
+}
+
+
+@media (max-width: 575px) {
+    .cards{
+        display: block;
+        justify-content: center;
+    }
+    .card{
+        width: 100% !important;
+        border-radius: 0 !important;
+        text-align: center;
+    }
+    .card-trainee{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+  }
