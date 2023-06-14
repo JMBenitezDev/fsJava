@@ -29,9 +29,14 @@ header{
 }
 
 
-.Comprar {
+.Comprar{
     color: rgb(112, 209, 64) !important;
 }
+
+#btnBorrar,#btnResumen{
+    background-color: rgb(129, 196, 61) !important;
+    border: none;
+} 
 
 .navbar-brand {
     margin-left: 1.5em !important;
@@ -45,8 +50,6 @@ header{
 nav.navbar{
     background-color: #3d4447 !important; 
 }
-
-
 
 .cards{
     display: flex;
@@ -70,16 +73,44 @@ nav.navbar{
     text-align: center;
 }
 
-form, h2{
+form{
+    text-align: start;
+}
+h2{
     text-align: center;
 }
+
 .btn{
     margin: 0 5px 0 5px;
 }
 .div_email{
     margin-top: 15px !important;
 }
+.alert{
+    padding: 10px 16px 10px 16px !important;
+    margin-top: 1em;
+    margin-bottom: 2em !important;
+}
 
+
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    background: rgb(6, 49, 65);
+    background: linear-gradient(90deg, rgba(6, 49, 65, 1) 0%, rgba(8, 87, 120, 1) 75%, rgba(13, 85, 103, 1) 100%);
+    height: 12vh;
+    align-items: center;
+}
+
+footer ul li a {
+    color: white !important;
+}
+
+footer ul li {
+    font-size: 0.8em;
+    width: calc(100%/9);
+}
 
 @media (max-width: 575px) {
     .cards{

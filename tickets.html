@@ -83,35 +83,35 @@
         <form class="row">
 
             <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="Nombre">
+                <input type="text" class="form-control" name="nombre" placeholder="Nombre">
             </div>
             <div class="col-md-6">
-                <input type="text" class="form-control" placeholder="Apellido">
+                <input type="text" class="form-control" name="apellido" placeholder="Apellido">
             </div>
 
             <div class="col-12 div_email">
-                <input type="email" class="form-control" id="idEmail" aria-describedby="emailHelp"
-                    placeholder="Correo">
+                <input type="email" class="form-control" id="idEmail" name="email" aria-describedby="emailHelp"
+                    placeholder="Correo" autocomplete="email">
             </div>
 
 
-            <div class="col-md-6">
+            <div class="col-md-6" >
                 <label for="cantidad" class="form-label">Cantidad</label>
-                <input type="text" class="form-control" id="cantidad" required placeholder="Cantidad">
+                <input type="text" class="form-control" id="cantidad" required name="cantidad" placeholder="Cantidad">
             </div>
 
             <div class="col-md-6">
-                <label for="Categoria" class="form-label">Categoria</label>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected value="1">Estudiante</option>
-                    <option value="2">Trainee</option>
-                    <option value="3">Junior</option>
+                <label for="categoria" class="form-label">Categoria</label>
+                <select class="form-select" name="categoria" aria-label="Default select example" id="categoria">
+                    <option selected value="0.2">Estudiante</option>
+                    <option value="0.5">Trainee</option>
+                    <option value="0.85">Junior</option>
                 </select>
             </div>
 
-            <div class="col">
+            <div class="col-md-12">
                 <div class="alert alert-primary" role="alert">
-                    Total a Pagar: $
+                   <p id="precioTotal">Total a Pagar: $</p>
                 </div>
             </div>
             <div class="row mb-3">
@@ -152,7 +152,7 @@
             </li>
         </ul>
     </footer>
-
+<script src="tickets.js"></script>
 </body>
 
 </html>
